@@ -1,7 +1,4 @@
-    <script>
-        // Select the elements you want to fade
 const elementsToFade = document.querySelectorAll('.fade-element');
-
 // Function to calculate opacity based on scroll position
 function calculateOpacity(scrollPosition, windowHeight) {
   const distanceFromTop = scrollPosition - windowHeight;
@@ -34,5 +31,3 @@ window.addEventListener('scroll', updateOpacity);
 function stopFadeEffect() {
   window.removeEventListener('scroll', updateOpacity);
 }
-
-    </script>
